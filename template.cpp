@@ -57,9 +57,6 @@ using namespace std;
 int n;
 vector<int> vec;
 
-//-723=blocked
-//723=exit
-
 tiii dis(int a, int b, int c) {
 	return { abs(a - b) + abs(vec[a] - vec[b]), abs(b - c) + abs(vec[b] - vec[c]), abs(c - a) + abs(vec[c] - vec[a]) };
 }
