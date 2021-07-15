@@ -54,12 +54,7 @@ bool inrange(int i, int j, int n, int m) { return 0 <= i && i < n && 0 <= j && j
 
 using namespace std;
 
-int n;
-vector<int> vec;
 
-tiii dis(int a, int b, int c) {
-	return { abs(a - b) + abs(vec[a] - vec[b]), abs(b - c) + abs(vec[b] - vec[c]), abs(c - a) + abs(vec[c] - vec[a]) };
-}
 
 int32_t main(void) {
 	FastIO;
